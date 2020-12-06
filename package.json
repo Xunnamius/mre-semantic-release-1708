@@ -1,6 +1,6 @@
 {
   "name": "@xunnamius/mre-semantic-release-1708",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A dummy package used for testing workflow pipelines. Not to be installed!",
   "repository": {
     "type": "git",
