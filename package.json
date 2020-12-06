@@ -1,0 +1,38 @@
+{
+  "name": "@xunnamius/mre-semantic-release-1708",
+  "version": "0.0.0-development",
+  "description": "A dummy package used for testing workflow pipelines. Not to be installed!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xunnamius/mre-semantic-release-1708"
+  },
+  "license": "Unlicense",
+  "author": "Xunnamius",
+  "sideEffects": false,
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "default": "./index.js",
+      "require": "./index.js"
+    },
+    "./package": "./package.json",
+    "./package.json": "./package.json"
+  },
+  "main": "./index",
+  "files": [
+    "/index.js",
+    "/LICENSE",
+    "/package.json",
+    "/README.md"
+  ],
+  "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
+    "semantic-release": "^17.3.0"
+  },
+  "engines": {
+    "node": ">=10.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
